@@ -18,7 +18,7 @@ body{
 .container h1{
     float: left;
     font-size: 40px;
-    border-bottom: 6px solid green;
+    border-bottom: 6px solid white;
     margin-bottom: 50px;
     padding: 13px 0;;
 
@@ -29,7 +29,7 @@ body{
     font-size: 20px;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid white;
 }
 
 .textbox input{
@@ -45,7 +45,7 @@ body{
 .btn{
     width: 100%;
     background: none;
-    border: 2px solid green;
+    border: 2px solid white;
     color: white;
     padding: 5px;
     font-size: 18px;
@@ -54,6 +54,10 @@ body{
 }
 
 .btn:hover{
-    background-color: green;
+    background-color: white;
     font-size:20px ;
+}
+
+::placeholder{
+    color: white;
 }
